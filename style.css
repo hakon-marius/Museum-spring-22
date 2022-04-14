@@ -15,6 +15,10 @@ p {
     margin-bottom: 10px;
 }
 
+p::first-letter {
+    text-transform: uppercase;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -152,7 +156,7 @@ nav li {
 /* Home page*/
 
 .home_grid_container {
-    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: repeat(2, 1fr);*/
     gap: 1.5rem;
     padding: 10px;
     margin: auto;
@@ -160,7 +164,9 @@ nav li {
     display: grid;
 }
 
-
+.home_grid_item img {
+    text-align: center;
+}
 
 .home_grid_item:nth-child(2),
 .home_grid_item:nth-child(3),
@@ -190,8 +196,9 @@ nav li {
 .holding_a_plant {
     margin-bottom: 15px;
     width: 100%;
-    max-height: 200px;
+    max-height: 300px;
     object-fit: cover;
+
 }
 
 .background_image {
@@ -237,7 +244,6 @@ footer {
     background-color: var(--bottom_header_color);
     height: 832px;
     margin-top: 30px;
-
 }
 
 .footer_section_three,
@@ -379,6 +385,10 @@ footer {
 
     .home_grid_item:nth-child(6) p {
         max-width: 300px;
+    }
+
+    .teacher_greating {
+        background-position-x: 10px;
     }
 
     footer {
