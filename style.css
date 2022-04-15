@@ -211,12 +211,12 @@ nav li {
 .header_homepage {
     font-size: 30px;
     margin: 40px auto 35px auto;
-    padding: 5px 28px;
     font-family: oswald;
     border-radius: 30px;
     color: #fff;
     width: 336px;
     background-color: var(--top_header_color);
+    text-align: center;
 }
 
 /*footer*/
@@ -366,7 +366,7 @@ footer {
     /*Home_index*/
     .header_homepage {
         font-size: 27px;
-        width: 635px;
+        width: fit-content;
         padding: 5px 15px;
     }
 
