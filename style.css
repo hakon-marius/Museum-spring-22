@@ -12,7 +12,10 @@
     --background_color: #EDF6F6;
 }
 
-p {
+p,
+label,
+input,
+select {
     margin-bottom: 10px;
 }
 
@@ -308,6 +311,28 @@ footer {
     margin-bottom: 10px;
 }
 
+/*newsletter*/
+
+.newsletter_container {
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr);*/
+    width: 340px;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 75vh;
+}
+
+.cartoon_scientist_binoculars {
+    height: 25%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: auto;
+}
+
 @media only screen and (min-width: 800px) {
 
 
@@ -442,6 +467,32 @@ footer {
         height: 330px;
     }
 
+    /*newsletter page*/
+
+    .newsletter_section_1 {
+        display: flex;
+        flex-direction: row;
+        width: 45vw;
+
+    }
+
+    .newsletter_section_2 {
+        width: 45vw;
+        justify-content: end;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+
+    .newsletter_container {
+        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+        margin-top: 70px;
+    }
+
+    .cartoon_scientist_binoculars {
+        margin-top: 120px;
+        margin-left: 10%;
+    }
 
     @media (min-width: 1200px) {
 
