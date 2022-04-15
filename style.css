@@ -9,6 +9,7 @@
 :root {
     --top_header_color: #FF0909;
     --bottom_header_color: #F0E5E5;
+    --background_color: #EDF6F6;
 }
 
 p {
@@ -48,7 +49,6 @@ body {
     color: black;
     height: 100vh;
 }
-
 
 nav a {
     background-color: transparent;
@@ -198,7 +198,6 @@ nav li {
     width: 100%;
     max-height: 300px;
     object-fit: cover;
-
 }
 
 .background_image {
@@ -222,8 +221,6 @@ nav li {
 
 /*footer*/
 
-
-
 .Footer_top_bar_header {
     color: #fff;
     margin-left: 55px;
@@ -237,7 +234,7 @@ nav li {
     height: 64px;
     color: #fff;
     display: inline-flex;
-    width: 100vw;
+    width: 100%;
 }
 
 footer {
@@ -285,6 +282,30 @@ footer {
 
 .sponsors p {
     margin-bottom: 2px;
+}
+
+/*visit page*/
+
+.visit_grid_containder {
+    display: grid;
+    margin: auto;
+    width: 90vw;
+    gap: 1.5rem;
+}
+
+.visit_sections {
+    background-color: var(--background_color);
+    grid-auto-flow: column;
+    padding: 30px;
+    text-align: center;
+}
+
+.visit_sections p {
+    margin-bottom: 30px;
+}
+
+.opening_hours p {
+    margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 800px) {
@@ -398,7 +419,6 @@ footer {
     .footer_content {
         display: grid;
         grid-auto-flow: column;
-
     }
 
     .sponsors:hover {
@@ -406,6 +426,22 @@ footer {
         padding: 6px 4px;
         width: fit-content;
     }
+
+    /*visit*/
+
+    .visit_grid_containder {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .visit_sections {
+        width: 33.3% vw;
+        height: 440px;
+    }
+
+    .visit_low_height {
+        height: 330px;
+    }
+
 
     @media (min-width: 1200px) {
 
@@ -442,6 +478,36 @@ footer {
             display: flex;
             flex-direction: row;
         }
+
+        /*visit*/
+        .visit_sections p {
+            max-width: 480px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+        .opening_hours p {
+            margin-bottom: 15px;
+        }
+
+        /*visit page*/
+
+        .visit_grid_containder {
+            grid-template-columns: repeat(3, 1fr);
+            width: 1100px;
+        }
+
+        .visit_sections {
+            width: 33.3% vw;
+            height: 460px;
+            column-gap: 15px;
+            row-gap: 15px;
+        }
+
+        .low_height_over_1200 {
+            height: 350px;
+        }
+
 
     }
 }
