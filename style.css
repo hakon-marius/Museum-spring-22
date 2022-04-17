@@ -380,6 +380,30 @@ label {
     font-size: larger;
 }
 
+/*support page*/
+
+.support_grid_containere {}
+
+.support_section {
+    background-color: var(--background_color);
+    width: 80%;
+    margin: 50px auto 30px auto;
+}
+
+.support_section p {
+    width: 85%;
+    margin: 20px auto 20px auto;
+}
+
+.museum_building_img_small_screen {
+    width: 100%;
+}
+
+.museum_building_img_large_screen {
+    display: none;
+}
+
+
 @media only screen and (min-width: 800px) {
 
 
