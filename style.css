@@ -359,7 +359,7 @@ label {
 }
 
 .newsletter_container h1 {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     font-size: 25px;
 }
 
@@ -566,8 +566,7 @@ label {
 
     .newsletter_container {
         grid-template-columns: repeat(3, 1fr);
-        height: 50vh;
-        /*margin-top: 45px;*/
+        height: 100vh;
         max-width: 900px;
     }
 
