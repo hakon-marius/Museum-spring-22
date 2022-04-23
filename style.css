@@ -404,6 +404,30 @@ label {
 }
 
 
+/*about page*/
+
+.about_grid_container {
+    gap: 1.5rem;
+    padding: 10px;
+    margin: auto;
+    width: 95vw;
+    display: grid;
+}
+
+.about_copy {
+    background-color: var(--background_color);
+    padding: 30px 30px;
+}
+
+.about_images {
+    width: 100%;
+}
+
+.header_aboutpage {
+    margin: 40px 0px 30px 25px;
+}
+
+
 @media only screen and (min-width: 800px) {
 
 
@@ -551,6 +575,10 @@ label {
         margin-top: 120px;
     }
 
+    /*about page*/
+    .header_aboutpage {
+        margin-left: 50px;
+    }
 
 
     @media (min-width: 1200px) {
@@ -622,6 +650,18 @@ label {
             max-width: 1000px;
             height: 85vh;
         }
+
+        .about_grid_container {
+            grid-template-columns: repeat(1, 1fr 1fr);
+
+        }
+
+        .about_images {
+            height: 100%;
+            object-fit: cover;
+        }
+
+
 
     }
 }
