@@ -167,13 +167,16 @@ nav li {
 }
 
 /* Home page*/
+.main_container_homepage {
+    margin-bottom: 80px;
+}
 
 .home_grid_container {
     /*grid-template-columns: repeat(2, 1fr);*/
     gap: 1.5rem;
     padding: 10px;
     margin: auto;
-    width: 95vw;
+    width: 90vw;
     display: grid;
 }
 
@@ -410,7 +413,7 @@ label {
     gap: 1.5rem;
     padding: 10px;
     margin: auto;
-    width: 95vw;
+    width: 90vw;
     display: grid;
 }
 
