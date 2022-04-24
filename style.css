@@ -393,7 +393,7 @@ label {
 .support_section,
 .support_section_1_and_2 {
     background-color: var(--background_color);
-    width: 70%;
+    width: 90%;
     margin: 50px auto 30px auto;
 }
 
@@ -621,6 +621,7 @@ label {
     .support_section,
     .support_section_1_and_2 {
         max-width: 700px;
+        width: 70%;
     }
 
     .museum_building_img_small_screen {
