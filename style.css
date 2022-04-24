@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
+body p {
+    font-family: "source sans pro";
+    font-size: 20px;
+    color: black;
+}
+
 :root {
     --top_header_color: #FF0909;
     --bottom_header_color: #F0E5E5;
@@ -46,7 +56,7 @@ li {
 h2 {
     font-family: "oswald";
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -55,16 +65,6 @@ h2,
 h3,
 a {
     text-transform: capitalize;
-}
-
-body {
-    height: 100vh;
-}
-
-p {
-    font-family: "source san pro";
-    font-size: 20px;
-    color: black;
 }
 
 nav a {
@@ -118,8 +118,8 @@ nav li {
     height: 65px;
     background-color: var(--bottom_header_color);
     font-family: oswald;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 23px;
+    font-weight: 500;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -287,9 +287,9 @@ footer {
 .fa-twitter-square,
 .fa-youtube-square,
 .fa-linkedin {
-    padding-right: 10px;
+    padding-right: 15px;
     margin-bottom: 40px;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .sponsors {
@@ -357,15 +357,6 @@ footer {
     border-color: transparent;
     width: 145px;
     border: solid;
-}
-
-
-.newsletter_container p,
-li,
-h2,
-label {
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .newsletter_container h1 {
@@ -449,8 +440,6 @@ label {
     width: 100%;
 }
 
-
-
 .paragraph_over_button {
     margin-bottom: 40px;
 }
@@ -530,6 +519,14 @@ label {
         color: var(--top_header_color);
         border-color: var(--top_header_color);
         border: solid;
+    }
+
+    .fa-facebook-square,
+    .fa-twitter-square,
+    .fa-youtube-square,
+    .fa-linkedin {
+        padding-right: 10px;
+        font-size: 35px;
     }
 
     /*Home_index*/
@@ -616,7 +613,7 @@ label {
 
     .newsletter_container {
         grid-template-columns: repeat(3, 1fr);
-        height: 100vh;
+        height: 62vh;
         max-width: 900px;
     }
 
