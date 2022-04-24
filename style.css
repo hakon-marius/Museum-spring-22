@@ -399,6 +399,10 @@ label {
     margin: 50px auto 30px auto;
 }
 
+.support_container {
+    padding-bottom: 40px;
+}
+
 
 .header_support {
     margin: 30px 20%;
@@ -429,6 +433,7 @@ label {
     margin: auto;
     width: 90vw;
     display: grid;
+    padding-bottom: 80px;
 }
 
 .header_aboutpage {
