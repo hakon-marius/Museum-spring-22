@@ -42,8 +42,9 @@ li {
     list-style-type: none;
 }
 
+
 h2 {
-    font-family: oswald;
+    font-family: "oswald";
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
@@ -57,10 +58,13 @@ a {
 }
 
 body {
-    font-family: "source sans pro", 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+}
+
+p {
+    font-family: "source san pro";
     font-size: 20px;
     color: black;
-    height: 100vh;
 }
 
 nav a {
@@ -350,8 +354,9 @@ footer {
     padding: 6px 6px;
     border-color: transparent;
     width: 145px;
-
+    border: solid;
 }
+
 
 .newsletter_container p,
 li,
@@ -392,12 +397,21 @@ label {
     margin: 50px auto 30px auto;
 }
 
-.support_section_padding {
+
+.header_support {
+    position: relative;
+    left: 20%;
+    top: 50px;
+    margin-bottom: 97px;
+}
+
+.support_section_padding,
+.support_section_1_and_2 {
     padding: 40px 40px;
 }
 
 .support_section_1_and_2 {
-    padding: 40px 100px;
+    margin-bottom: 80px;
 }
 
 .museum_building_img_small_screen {
@@ -405,7 +419,6 @@ label {
     height: 100%;
     object-fit: cover;
 }
-
 
 
 /*about page*/
@@ -435,9 +448,25 @@ label {
     margin-bottom: 40px;
 }
 
+/*exhibitions page*/
+
+.exhibitions_grid_container {
+    gap: 1.5rem;
+    margin: auto;
+    width: 90vw;
+    display: grid;
+}
+
+.exhibitions_grid_item {
+    background-color: var(--background_color);
+    padding: 30px;
+}
+
+.exhibitions_last_article {
+    display: none;
+}
 
 @media only screen and (min-width: 800px) {
-
 
     .home_grid_container {
         display: grid;
@@ -598,6 +627,24 @@ label {
         max-height: 500px;
     }
 
+    /*exhibitions*/
+    .exhibitions_grid_container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .exchibition_grid_last_child {
+        display: none;
+    }
+
+    .exhibitions_last_article {
+        display: grid;
+        width: 90vw;
+        background-color: var(--background_color);
+        padding: 30px;
+        margin: 1.5rem auto 100px auto;
+    }
+
     @media (min-width: 1200px) {
 
         /*home_index*/
@@ -634,7 +681,7 @@ label {
             flex-direction: row;
         }
 
-        /*visit*/
+        /*visit page*/
         .visit_sections p {
             max-width: 480px;
             margin: auto;
@@ -644,8 +691,6 @@ label {
         .opening_hours p {
             margin-bottom: 15px;
         }
-
-        /*visit page*/
 
         .visit_grid_containder {
             grid-template-columns: repeat(3, 1fr);
@@ -670,7 +715,6 @@ label {
 
         .about_grid_container {
             grid-template-columns: repeat(1, 1fr 1fr);
-
         }
 
         .about_images {
@@ -682,9 +726,6 @@ label {
         .support_section {
             display: flex;
             flex-direction: row-reverse;
-        }
-
-        .support_section {
             max-width: 1600px;
         }
 
@@ -694,8 +735,45 @@ label {
 
         .support_section_1_and_2 {
             max-width: 900px;
+            padding: 40px 100px;
         }
 
+        .exhibitions_last_article {
+            display: none;
+        }
+
+        .exchibition_grid_last_child {
+            display: grid;
+        }
+
+        .exhibitions_grid_container {
+            grid-template-columns: 1fr;
+
+        }
+
+        .exhibition_grid_item:nth-child(1) {
+            grid-column: 1 / 2;
+
+        }
+
+        .exhibition_grid_item:nth-child(2) {
+            grid-column: 2 / 3;
+        }
+
+        .exhibition_grid_item:nth-child(3) {
+            grid-row: 2;
+            grid-column: 1 / 2;
+        }
+
+        .exhibition_grid_item:nth-child(4) {
+            grid-row: 2;
+            grid-column: 2 / 3;
+        }
+
+        .exhibition_grid_item:nth-child(5) {
+            grid-row: 2;
+            grid-column: 3 / 4;
+        }
 
     }
 }
