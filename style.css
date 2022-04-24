@@ -427,6 +427,10 @@ label {
     display: grid;
 }
 
+.header_aboutpage {
+    margin: 30px 10%;
+}
+
 .about_copy {
     background-color: var(--background_color);
     padding: 30px 30px;
@@ -436,9 +440,7 @@ label {
     width: 100%;
 }
 
-.header_aboutpage {
-    margin: 40px 0px 30px 25px;
-}
+
 
 .paragraph_over_button {
     margin-bottom: 40px;
@@ -446,11 +448,16 @@ label {
 
 /*exhibitions page*/
 
+.header_exhibition_page {
+    margin: 45px 10%
+}
+
 .exhibitions_grid_container {
     gap: 1.5rem;
     margin: auto;
     width: 90vw;
     display: grid;
+    margin-bottom: 80px;
 }
 
 .exhibitions_grid_item {
@@ -580,10 +587,11 @@ label {
         width: fit-content;
     }
 
-    /*visit*/
+    /*visit page*/
 
     .visit_grid_containder {
         grid-template-columns: repeat(2, 1fr);
+        width: 80vw;
     }
 
     .visit_sections {
@@ -609,11 +617,11 @@ label {
 
     /*about page*/
     .header_aboutpage {
-        margin-left: 50px;
+        margin: 45px 10%
     }
 
     .about_grid_container {
-        width: 80vw;
+        width: 85vw;
     }
 
     /*support page*/
