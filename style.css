@@ -313,6 +313,7 @@ footer {
     margin: auto;
     width: 90vw;
     gap: 1.5rem;
+    padding-bottom: 40px;
 }
 
 .visit_sections {
@@ -338,7 +339,7 @@ footer {
     width: 90%;
     max-width: 400px;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .newsletter_section_2 {
@@ -391,7 +392,7 @@ footer {
 }
 
 .support_container {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 
@@ -424,7 +425,7 @@ footer {
     margin: auto;
     width: 90vw;
     display: grid;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .header_aboutpage {
@@ -455,7 +456,8 @@ footer {
     margin: auto;
     width: 90vw;
     display: grid;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .exhibitions_grid_item {
@@ -644,6 +646,7 @@ footer {
     /*exhibitions*/
     .exhibitions_grid_container {
         grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 0px;
     }
 
     .exchibition_grid_last_child {
@@ -655,7 +658,7 @@ footer {
         width: 90vw;
         background-color: var(--background_color);
         padding: 30px;
-        margin: 1.5rem auto 100px auto;
+        margin: 1.5rem auto 80px auto;
     }
 
     @media (min-width: 1200px) {
@@ -764,6 +767,7 @@ footer {
         .exhibitions_grid_container {
             grid-template-columns: repeat(4, 1fr);
             max-width: 80vw;
+            padding-bottom: 40px;
         }
 
         .grid-col-span {
