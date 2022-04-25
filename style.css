@@ -613,7 +613,6 @@ footer {
 
     .newsletter_container {
         grid-template-columns: repeat(3, 1fr);
-        height: 62vh;
         max-width: 900px;
     }
 
