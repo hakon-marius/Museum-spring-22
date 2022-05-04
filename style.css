@@ -7,12 +7,11 @@
 }
 
 body {
-    height: 100vh;
-    font-family: "source sans pro"
+    font-family: "source sans pro";
 }
 
 body p {
-    font-family: "source sans pro";
+    /*font-family: "source sans pro";*/
     font-size: 20px;
     color: black;
 }
@@ -28,6 +27,7 @@ label,
 input,
 select {
     margin-bottom: 10px;
+
 }
 
 input,
@@ -43,6 +43,7 @@ p::first-letter,
 label::first-letter {
     text-transform: uppercase;
 }
+
 
 a {
     color: black;
@@ -107,6 +108,7 @@ nav li {
     align-self: center;
 }
 
+
 .bottom_header_tickets {
     color: var(--top_header_color);
     border-radius: 15px;
@@ -126,6 +128,7 @@ nav li {
     align-items: center;
 }
 
+
 .tickets {
     border-style: solid;
     border-color: #fff;
@@ -135,6 +138,7 @@ nav li {
     right: 200px;
     display: none;
 }
+
 
 .bottom_header_tickets {
     margin-left: 25px;
@@ -289,6 +293,10 @@ footer {
     margin-bottom: 20px;
 }
 
+.get_in_touch {
+    margin-top: 60px;
+}
+
 .fa-facebook-square,
 .fa-twitter-square,
 .fa-youtube-square,
@@ -354,6 +362,7 @@ footer {
     max-width: 400px;
     padding-top: 50px;
     padding-bottom: 40px;
+
 }
 
 .newsletter_section_2 {
@@ -366,11 +375,18 @@ footer {
     border-radius: 10px;
 }
 
-.form .cta_button {
+.form .cta_button .contact_form {
     margin: 20px;
     padding: 1px 9px;
     border-color: transparent;
     width: 145px;
+    border: solid;
+}
+
+.newsletter_cta {
+    margin: 20px;
+    width: 156px;
+    border-color: transparent;
     border: solid;
 }
 
@@ -386,7 +402,8 @@ footer {
 .form {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 300px;
+    margin: 10px;
 }
 
 .newsletter_section_3 span {
@@ -483,7 +500,91 @@ footer {
     display: none;
 }
 
+/*contact*/
+
+
+.contact_container {
+    width: min(80%, 450px);
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.contact_images {
+    height: 60%;
+    width: 90%;
+    margin-bottom: 3%;
+}
+
+.contact_info {
+    background-color: var(--background_color);
+    width: min(80%, 380px);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 35px;
+    height: 460px;
+    margin: auto;
+}
+
+#message {
+    margin-bottom: 30px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    width: min(100%, 380px);
+    margin: 20px auto 20px auto;
+    background-color: var(--background_color);
+    padding: 30px;
+    border-radius: 15px;
+    height: 520px;
+}
+
+.contact_button {
+    max-width: 80px;
+}
+
+.contact_location {
+    width: min(100%, 380px);
+    margin: 20px auto 20px auto;
+    background-color: var(--background_color);
+    padding: 30px;
+    border-radius: 15px;
+    height: 520px;
+}
+
+.contact_header {
+    width: 100%;
+    text-align: center;
+}
+
+.contact_header p {
+    padding: 0px 5px;
+}
+
+.contact_h1 {
+    margin: 25px;
+}
+
+.contact_container {
+    width: min(80%, 750px)
+}
+
+.contact_container h2 {
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+
+.contact_container p {
+    margin-bottom: 25px;
+}
+
 @media only screen and (min-width: 800px) {
+
+    .form {
+        width: 250px;
+    }
 
     .home_grid_container {
         display: grid;
@@ -671,123 +772,174 @@ footer {
         margin: 1.5rem auto 80px auto;
     }
 
-    @media (min-width: 1200px) {
-
-        /*home_index*/
-
-        .home_grid_item:nth-child(1) {
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-
-        .home_grid_item:nth-child(2) {
-            grid-column: 2 / 4;
-            padding: 30px 65px;
-        }
-
-        .home_grid_item:nth-child(2),
-        .home_grid_item:nth-child(3),
-        .home_grid_item:nth-child(4),
-        .home_grid_item:nth-child(5) {
-            padding: 30px 40px;
-        }
-
-        .home_grid_item:nth-child(6) {
-            grid-column: 2 / 4;
-            flex-direction: column;
-        }
-
-        .plant_img {
-            width: min(380px, 380px);
-            margin-right: 44px;
-        }
-
-        .home_grid_item:nth-child(6) {
-            display: flex;
-            flex-direction: row;
-        }
-
-        /*visit page*/
-        .visit_sections p {
-            max-width: 480px;
-            margin: auto;
-            margin-bottom: 30px;
-        }
-
-        .opening_hours p {
-            margin-bottom: 15px;
-        }
-
-        .visit_grid_containder {
-            grid-template-columns: repeat(3, 1fr);
-            width: 1100px;
-        }
-
-        .visit_sections {
-            height: 460px;
-            column-gap: 15px;
-            row-gap: 15px;
-        }
-
-        .low_height_over_1200 {
-            height: 350px;
-        }
-
-        .newsletter_container {
-            max-width: 1000px;
-            height: 85vh;
-        }
-
-        .about_grid_container {
-            grid-template-columns: repeat(1, 1fr 1fr);
-        }
-
-        .about_images {
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /*support page*/
-        .support_section {
-            display: flex;
-            flex-direction: row-reverse;
-            max-width: 1600px;
-        }
-
-        .upper_section_support {
-            width: 100%;
-        }
-
-        .support_section_1_and_2 {
-            max-width: 900px;
-            padding: 40px 100px;
-        }
-
-        /*exhibition page*/
-
-        .exhibitions_last_article {
-            display: none;
-        }
-
-        .exchibition_grid_last_child {
-            display: inline;
-        }
-
-        .exhibitions_grid_container {
-            grid-template-columns: repeat(4, 1fr);
-            max-width: 80vw;
-            padding-bottom: 40px;
-        }
-
-        .grid-col-span {
-            grid-column: span 2;
-        }
-
-        .exhibition_midle_full_width_midle {
-            grid-column: span 2;
-        }
+    /*contact*/
 
 
+    .contact_container {
+        width: min(80%, 600px);
+        padding-bottom: 40px;
+        margin: auto;
+    }
+
+    .contact_h1 {
+        margin: 50px 30px;
+    }
+
+    .contact_header p {
+        padding: 0px 25px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .form {
+        width: 300px;
+    }
+
+    /*home_index*/
+
+    .home_grid_item:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .home_grid_item:nth-child(2) {
+        grid-column: 2 / 4;
+        padding: 30px 65px;
+    }
+
+    .home_grid_item:nth-child(2),
+    .home_grid_item:nth-child(3),
+    .home_grid_item:nth-child(4),
+    .home_grid_item:nth-child(5) {
+        padding: 30px 40px;
+    }
+
+    .home_grid_item:nth-child(6) {
+        grid-column: 2 / 4;
+        flex-direction: column;
+    }
+
+    .plant_img {
+        width: min(380px, 380px);
+        margin-right: 44px;
+    }
+
+    .home_grid_item:nth-child(6) {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*visit page*/
+    .visit_sections p {
+        max-width: 480px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .opening_hours p {
+        margin-bottom: 15px;
+    }
+
+    .visit_grid_containder {
+        grid-template-columns: repeat(3, 1fr);
+        width: 1100px;
+    }
+
+    .visit_sections {
+        height: 460px;
+        column-gap: 15px;
+        row-gap: 15px;
+    }
+
+    .low_height_over_1200 {
+        height: 350px;
+    }
+
+    .newsletter_container {
+        max-width: 1000px;
 
     }
+
+    .about_grid_container {
+        grid-template-columns: repeat(1, 1fr 1fr);
+    }
+
+    .about_images {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /*support page*/
+    .support_section {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 1600px;
+    }
+
+    .upper_section_support {
+        width: 100%;
+    }
+
+    .support_section_1_and_2 {
+        max-width: 900px;
+        padding: 40px 100px;
+    }
+
+    /*exhibition page*/
+
+    .exhibitions_last_article {
+        display: none;
+    }
+
+    .exchibition_grid_last_child {
+        display: inline;
+    }
+
+    .exhibitions_grid_container {
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 80vw;
+        padding-bottom: 40px;
+    }
+
+    .grid-col-span {
+        grid-column: span 2;
+    }
+
+    .exhibition_midle_full_width_midle {
+        grid-column: span 2;
+    }
+
+    /*contact*/
+
+    .contact_flex_container_over_1200 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact_form,
+    .contact_location {
+        width: 380px;
+        margin: 50px;
+        height: 520px;
+    }
+
+    .contact_container {
+        width: 1000px;
+    }
+
+    .contact_images {
+        height: 60%;
+        width: 800px
+    }
+
+    .contact_h1 {
+        margin: 50px 100px;
+
+    }
+
+
 }
