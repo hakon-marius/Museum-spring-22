@@ -932,12 +932,12 @@ footer {
     }
 
     .contact_images {
-        height: 60%;
-        width: 800px
+        height: 500px;
+        width: 750px
     }
 
     .contact_h1 {
-        margin: 50px 100px;
+        margin: 50px 125px;
 
     }
 
