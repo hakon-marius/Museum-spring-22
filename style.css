@@ -180,7 +180,7 @@ nav li {
 }
 
 #site-search:hover {
-    background-color: #fff0f6;
+    background-color: #f7ffe6;
     color: black;
 }
 
@@ -724,9 +724,6 @@ footer {
         width: 80vw;
     }
 
-    .visit_low_height {
-        height: 330px;
-    }
 
     /*newsletter page*/
 
