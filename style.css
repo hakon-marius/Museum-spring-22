@@ -59,7 +59,7 @@ li {
 h2 {
     font-family: "oswald";
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 15px;
 }
 
@@ -191,7 +191,6 @@ nav li {
 }
 
 .home_grid_container {
-    /*grid-template-columns: repeat(2, 1fr);*/
     gap: 1.5rem;
     padding: 10px;
     margin: auto;
@@ -301,13 +300,14 @@ footer {
     margin-top: 60px;
 }
 
-.fa-facebook-square,
-.fa-twitter-square,
-.fa-youtube-square,
-.fa-linkedin {
+.social_media {
     padding-right: 15px;
     margin-bottom: 40px;
     font-size: 45px;
+}
+
+.social_media:hover {
+    color: rgb(71, 61, 61);
 }
 
 .sponsors {
@@ -404,7 +404,7 @@ footer {
 
 .newsletter_container h1 {
     margin-bottom: 25px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .cartoon_scientist_binoculars {
@@ -438,7 +438,6 @@ footer {
 .support_container {
     padding-bottom: 10px;
 }
-
 
 .header_support {
     margin: 30px 20%;
@@ -657,13 +656,6 @@ footer {
         border: solid;
     }
 
-    .fa-facebook-square,
-    .fa-twitter-square,
-    .fa-youtube-square,
-    .fa-linkedin {
-        padding-right: 10px;
-        font-size: 35px;
-    }
 
     /*home_index*/
     .header_homepage {
@@ -803,7 +795,6 @@ footer {
         padding: 0px 25px;
     }
 
-
 }
 
 @media (min-width: 1200px) {
@@ -811,6 +802,7 @@ footer {
     .form {
         width: 300px;
     }
+
 
     /*home_index*/
 
@@ -874,7 +866,6 @@ footer {
 
     .newsletter_container {
         max-width: 1000px;
-
     }
 
     .about_grid_container {
