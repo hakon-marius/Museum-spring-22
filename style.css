@@ -84,6 +84,8 @@ nav li {
     padding: 11px 15px;
 }
 
+
+
 .cta_button {
     background-color: var(--top_header_color);
     color: #fff;
@@ -599,6 +601,11 @@ footer {
 
 @media only screen and (min-width: 800px) {
 
+    .active {
+        text-decoration: underline 2px;
+
+    }
+
     .form {
         width: 250px;
     }
@@ -635,10 +642,7 @@ footer {
         display: inline-flex;
     }
 
-    .active {
-        text-decoration: underline 2px;
 
-    }
 
     .hamburgerbars {
         display: none;
