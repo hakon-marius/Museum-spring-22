@@ -123,6 +123,7 @@ nav li {
     padding: 0px 5px 0px 5px;
     border-color: var(--top_header_color);
     border-style: solid;
+    margin-left: 25px;
 }
 
 .bottom_header {
@@ -136,7 +137,6 @@ nav li {
     align-items: center;
 }
 
-
 .tickets {
     border-style: solid;
     border-color: #fff;
@@ -147,10 +147,6 @@ nav li {
     display: none;
 }
 
-
-.bottom_header_tickets {
-    margin-left: 25px;
-}
 
 #hamburger-menu:checked~nav {
     display: block;
@@ -319,12 +315,10 @@ footer {
 .sponsors {
     display: flex;
     flex-direction: column;
-}
-
-.sponsors {
     background-color: transparent;
     padding: 6px 4px;
 }
+
 
 .sponsors p {
     margin-bottom: 2px;
@@ -391,7 +385,12 @@ footer {
     background-color: var(--background_color);
     padding: 30px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 10px;
 }
+
 
 .form .cta_button .contact_form {
     margin: 20px;
@@ -417,12 +416,7 @@ footer {
     height: 185px;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    margin: 10px;
-}
+
 
 .newsletter_section_3 span {
     color: #FF0909;
@@ -525,10 +519,11 @@ footer {
 
 
 .contact_container {
-    width: min(80%, 450px);
+    width: min(80%, 750px);
     padding-bottom: 40px;
     margin: auto;
 }
+
 
 .contact_images {
     height: 60%;
@@ -590,9 +585,7 @@ footer {
     margin: 25px;
 }
 
-.contact_container {
-    width: min(80%, 750px)
-}
+
 
 .contact_container h2 {
     margin-top: 22px;
