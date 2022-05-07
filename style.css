@@ -12,7 +12,6 @@ body {
 }
 
 body p {
-    /*font-family: "source sans pro";*/
     font-size: 20px;
     color: black;
 }
@@ -28,8 +27,9 @@ label,
 input,
 select {
     margin-bottom: 10px;
-
 }
+
+
 
 input,
 select {
@@ -44,6 +44,10 @@ p::first-letter,
 label::first-letter {
     text-transform: uppercase;
 }
+
+
+
+
 
 
 a {
