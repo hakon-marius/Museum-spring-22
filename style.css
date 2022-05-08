@@ -289,8 +289,9 @@ footer {
 .footer_section_three,
 .footer_section_two,
 .footer_section_one {
-    /* margin-bottom: 30px;*/
+    /*margin-bottom: 35px;*/
     justify-content: space-between;
+
 }
 
 .footer_content {
@@ -301,7 +302,7 @@ footer {
 }
 
 .footer_content h3 {
-    margin-bottom: 28px;
+    margin-bottom: 25px;
 }
 
 .get_in_touch {
@@ -328,6 +329,10 @@ footer {
 
 .sponsors p {
     margin-bottom: 2px;
+}
+
+.social_media_header {
+    margin-top: 25px;
 }
 
 /*visit page*/
@@ -800,6 +805,11 @@ footer {
         padding: 0px 25px;
     }
 
+    /*footer*/
+
+    .social_media_header {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 1200px) {
