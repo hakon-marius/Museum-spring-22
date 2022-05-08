@@ -282,14 +282,14 @@ nav li {
 
 footer {
     background-color: var(--bottom_header_color);
-    height: 710px;
+    /* height: 710px;*/
     margin-top: 30px;
 }
 
 .footer_section_three,
 .footer_section_two,
 .footer_section_one {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;*/
     justify-content: space-between;
 }
 
@@ -934,7 +934,7 @@ footer {
     .contact_location {
         width: 380px;
         margin: 50px;
-        height: 520px;
+        height: 540px;
     }
 
     .contact_container {
