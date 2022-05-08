@@ -378,8 +378,8 @@ footer {
     margin: auto;
     width: 90%;
     max-width: 400px;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .newsletter_section_1 p:nth-last-child(2) {
