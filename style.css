@@ -236,7 +236,8 @@ nav li {
     object-position: left;
 }
 
-.teacher_image {
+.teacher_image,
+.elephant_image {
     object-position: top;
 }
 
