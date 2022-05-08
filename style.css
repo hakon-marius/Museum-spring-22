@@ -232,6 +232,14 @@ nav li {
     object-fit: cover;
 }
 
+.museum_image {
+    object-position: left;
+}
+
+.teacher_image {
+    object-position: top;
+}
+
 .background_image {
     background-image: url(Image/learn-2405206_1920.jpg);
     height: 350px;
@@ -250,6 +258,8 @@ nav li {
     background-color: var(--top_header_color);
     text-align: center;
 }
+
+
 
 /*footer*/
 
@@ -312,6 +322,7 @@ footer {
     flex-direction: column;
     background-color: transparent;
     padding: 6px 4px;
+    font-size: 20px;
 }
 
 .sponsors p {
@@ -821,7 +832,7 @@ footer {
         flex-direction: column;
     }
 
-    .plant_img {
+    .teacher_image {
         width: min(380px, 380px);
         margin-right: 44px;
     }
