@@ -23,7 +23,6 @@ body p {
 }
 
 
-
 p,
 label,
 input,
@@ -282,7 +281,6 @@ nav li {
 
 footer {
     background-color: var(--bottom_header_color);
-    /* height: 710px;*/
     margin-top: 30px;
     position: sticky;
     top: 100%;
