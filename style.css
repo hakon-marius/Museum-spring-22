@@ -29,6 +29,10 @@ select {
     margin-bottom: 10px;
 }
 
+.hide_only_for_screenreaders {
+    display: none;
+}
+
 input,
 select {
     height: 28px;
