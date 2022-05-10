@@ -22,14 +22,12 @@ body p {
     --background_color: #EDF6F6;
 }
 
-
 p,
 label,
 input,
 select {
     margin-bottom: 10px;
 }
-
 
 input,
 select {
@@ -39,12 +37,10 @@ select {
     background-color: #fff;
 }
 
-
 p::first-letter,
 label::first-letter {
     text-transform: uppercase;
 }
-
 
 a {
     color: black;
@@ -141,7 +137,6 @@ nav li {
     display: none;
 }
 
-
 #hamburger-menu:checked~nav {
     display: block;
     background-color: var(--bottom_header_color);
@@ -172,7 +167,6 @@ nav li {
     padding: 10px;
     top: -4px;
     position: relative;
-
 }
 
 #site-search:hover {
@@ -205,7 +199,6 @@ nav li {
 .home_grid_item:nth-child(6) {
     padding: 30px 30px;
     box-shadow: 0px 3px 6px 0px rgba(153, 151, 187, 0.4);
-
 }
 
 .paragraph_margin_bottom_before_cta {
@@ -221,7 +214,6 @@ nav li {
     height: 100%;
     object-fit: cover;
     box-shadow: 0px 3px 6px 0px rgba(153, 151, 187, 0.4);
-
 }
 
 .article_img {
@@ -260,7 +252,6 @@ nav li {
 }
 
 
-
 /*footer*/
 
 .footer_top_bar_header {
@@ -289,9 +280,7 @@ footer {
 .footer_section_three,
 .footer_section_two,
 .footer_section_one {
-    /*margin-bottom: 35px;*/
     justify-content: space-between;
-
 }
 
 .footer_content {
@@ -427,8 +416,6 @@ footer {
     height: 185px;
 }
 
-
-
 .newsletter_section_3 span {
     color: #FF0909;
     padding: 5px;
@@ -459,7 +446,6 @@ footer {
     padding: 40px 40px;
     box-shadow: 0px 3px 6px 0px rgba(153, 151, 187, 0.4);
 }
-
 
 .museum_building_img_small_screen {
     width: 100%;
@@ -528,13 +514,11 @@ footer {
 
 /*contact*/
 
-
 .contact_container {
     width: min(80%, 750px);
     padding-bottom: 40px;
     margin: auto;
 }
-
 
 .contact_images {
     height: 60%;
@@ -598,8 +582,6 @@ footer {
     margin: 25px;
 }
 
-
-
 .contact_container h2 {
     margin-top: 22px;
     margin-bottom: 5px;
@@ -613,7 +595,6 @@ footer {
 
     .active {
         text-decoration: underline 2px;
-
     }
 
     .form {
@@ -651,7 +632,6 @@ footer {
     nav li {
         display: inline-flex;
     }
-
 
 
     .hamburgerbars {
@@ -818,7 +798,6 @@ footer {
         width: 300px;
     }
 
-
     /*home_index*/
 
     .home_grid_item:nth-child(1) {
@@ -959,6 +938,5 @@ footer {
     .contact_h1 {
         margin: 50px 125px;
     }
-
 
 }
