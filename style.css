@@ -232,6 +232,7 @@ nav li {
     object-position: left;
 }
 
+
 .teacher_image,
 .elephant_image {
     object-position: top;
@@ -326,7 +327,7 @@ footer {
 }
 
 .social_media_header {
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 /*visit page*/
