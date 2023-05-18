@@ -1,6 +1,6 @@
 # Semester Project Community Science Museum.
 
-![Image]<img src="https://github.com/hakon-marius/Museum-spring-22/blob/main/Image/scott-webb-102825.jpg" alt="Image" height="300">
+<img src="https://github.com/hakon-marius/Museum-spring-22/blob/main/Image/scott-webb-102825.jpg" alt="Image" height="300">
 
 This project demonstrates the practical application of my HTML and CSS skills. Its primary objective is to develop a functional and responsive webpage.
 
