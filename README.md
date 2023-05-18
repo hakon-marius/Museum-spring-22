@@ -1,6 +1,6 @@
 # Semester Project Community Science Museum.
 
-![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-hakon-marius/blob/main/Images/world-collapse-doomsday-scene-digital-painting.png)
+![image](https://github.com/hakon-marius/Museum-spring-22/blob/main/Image/scott-webb-102825.jpg)
 
 This project demonstrates the practical application of my HTML and CSS skills. Its primary objective is to develop a functional and responsive webpage.
 
